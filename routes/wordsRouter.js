@@ -1,6 +1,6 @@
 var express = require('express');
 var wordsRouter = express.Router();
-var wordsController = require("../controller/wordsController");
+var wordsController = require("../controllers/wordsController");
 
 wordsRouter.route("/:words")
     .get(wordsController.getWords);
