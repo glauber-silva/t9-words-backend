@@ -1,0 +1,13 @@
+{
+  "name": "t9-words-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Glauber",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "validator": "^8.0.0"
+  }
+}
