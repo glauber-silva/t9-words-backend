@@ -34,6 +34,8 @@ var getWords = (req, res) => {
         }
     }
     var words = temp.sort();
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
     res.status(200).json(words);
 }
 
